@@ -21,12 +21,12 @@ export const Header = () => {
             <Box>
             <NextLink href="/" passHref>
                 <Link color="white" fontSize="xl" fontWeight="bold">
-                MyLogo
+                梶研究室 環境センサー閲覧システム
                 </Link>
             </NextLink>
             </Box>
 
-            <Flex alignItems="center">
+            {/* <Flex alignItems="center">
             <NextLink href="/about" passHref>
                 <Link color="white" px={2}>
                 About
@@ -37,7 +37,7 @@ export const Header = () => {
                 Contact
                 </Link>
             </NextLink>
-            </Flex>
+            </Flex> */}
         </Flex>
         </Box>
     );
