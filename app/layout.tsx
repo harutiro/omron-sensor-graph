@@ -1,4 +1,6 @@
 // app/layout.tsx
+import { Box } from '@chakra-ui/react'
+import { Header } from './_components/header'
 import { Providers } from './providers'
 
 export default function RootLayout({
@@ -9,7 +11,12 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header />
+          <Box pt="64px"> {/* ヘッダーの高さ分のパディングを追加 */}
+            {children}
+          </Box>
+        </Providers>
       </body>
     </html>
   )

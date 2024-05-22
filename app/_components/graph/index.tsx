@@ -1,10 +1,10 @@
 "use client"
 
 import { Box, Spinner } from "@chakra-ui/react"
-import { useSensorGet } from "../hooks/sensor_api"
+import { useSensorGet } from "../../_hooks/sensor_api"
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { Text } from '@chakra-ui/react'
-import styles from './Graph.module.css';
+import styles from './style.module.css';
 
 export function TempGraph () {
     const { sensor, isLoading } = useSensorGet();

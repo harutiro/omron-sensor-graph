@@ -1,6 +1,7 @@
-import { AmbientLightGraph, BarometricPressureGraph, EC02Graph, ETVOCGraph, RelativeHumidityGraph, SeismicIntensityGraph, SoundNoiseGraph, TempGraph } from "@/app/components/Graph";
+import { AmbientLightGraph, BarometricPressureGraph, EC02Graph, ETVOCGraph, RelativeHumidityGraph, SeismicIntensityGraph, SoundNoiseGraph, TempGraph } from "@/app/_components/graph/index";
 import { Button, Grid } from "@chakra-ui/react";
 import Image from "next/image";
+import { Header } from "./_components/header";
 
 export default function Home() {
   return (
@@ -15,6 +16,13 @@ export default function Home() {
         <BarometricPressureGraph />
         <AmbientLightGraph />
       </Grid>
+
+      <p>hoge</p>
+      <p>hoge</p>
+      <p>hoge</p>
+      <p>hoge</p>
+      <p>hoge</p>
+      <p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p>
     </main>
   );
 }
