@@ -16,13 +16,6 @@ export default function Home() {
         <BarometricPressureGraph />
         <AmbientLightGraph />
       </Grid>
-
-      <p>hoge</p>
-      <p>hoge</p>
-      <p>hoge</p>
-      <p>hoge</p>
-      <p>hoge</p>
-      <p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p><p>hoge</p>
     </main>
   );
 }
