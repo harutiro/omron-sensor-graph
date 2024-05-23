@@ -31,8 +31,6 @@ export const useSensorGet = (
 ) => {
     const { data, error, isLoading } = useSWR<sensor[]>(`https://sensor-api.sysken.net/get/sensor`, fetcher)
 
-    console.log(data)
-
     return {
         sensor: data,
         isLoading,

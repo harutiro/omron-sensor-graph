@@ -19,11 +19,9 @@ export const Header = () => {
         >
         <Flex h={16} alignItems="center" justifyContent="space-between">
             <Box>
-            <NextLink href="/" passHref>
-                <Link color="white" fontSize="xl" fontWeight="bold">
+                <Link href="/" color="white" fontSize="xl" fontWeight="bold">
                 梶研究室 環境センサー閲覧システム
                 </Link>
-            </NextLink>
             </Box>
 
             {/* <Flex alignItems="center">
