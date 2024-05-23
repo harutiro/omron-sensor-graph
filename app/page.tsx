@@ -6,7 +6,7 @@ import { Header } from "./_components/header";
 export default function Home() {
   return (
     <main>
-      <Grid templateColumns={{sm:"repeat(1, 1fr)" , md:"repeat(3, 1fr)" ,lg:"repeat(4, 1fr)"   }} gap={4}>
+      <Grid templateColumns={{sm:"repeat(1, 1fr)" , md:"repeat(2, 1fr)" ,lg:"repeat(3, 1fr)" , xl:"repeat(3, 1fr)" }} gap={4}>
         <TempGraph />
         <SoundNoiseGraph />
         <EC02Graph />

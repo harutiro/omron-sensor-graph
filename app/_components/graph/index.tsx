@@ -54,7 +54,7 @@ const Graph: React.FC<GraphProps> = ({ title, dataKey, domain }) => {
   if (isLoading) return <Spinner />;
 
   return (
-    <Box w="100%">
+    <Box w="100%" p="8px">
       <Text fontSize="xl" textAlign="center">
         {title}
       </Text>
