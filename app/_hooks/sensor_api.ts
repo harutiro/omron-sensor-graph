@@ -29,7 +29,7 @@ export const useSensorGet = (
     // endDate: Date, 
     // count: number
 ) => {
-    const { data, error, isLoading } = useSWR<sensor[]>(`https://sensor-api.sysken.net/get/sensor`, fetcher)
+    const { data, error, isLoading } = useSWR<sensor[]>(`https://enviroment-backend.kajilab.dev/get/sensor`, fetcher)
 
     return {
         sensor: data,
